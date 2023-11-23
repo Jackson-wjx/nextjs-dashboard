@@ -9,7 +9,7 @@ export default function AddTask() {
   return (
     <>
       <input
-        class="border-2 border-gray-300 bg-white h-10  ml-2 mt-4 rounded-lg text-sm focus:outline-none"
+        className="border-2 border-gray-300 bg-white h-10  ml-2 mt-4 rounded-lg text-sm focus:outline-none"
         placeholder="Add task"
         value={text}
         onChange={e => setText(e.target.value)}

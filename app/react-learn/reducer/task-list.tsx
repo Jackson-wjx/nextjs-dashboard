@@ -24,7 +24,7 @@ function Task({ task }) {
     taskContent = (
       <>
         <input
-          class="border-2 border-gray-300 bg-white h-8  ml-2 rounded-lg text-sm focus:outline-none"
+          className="border-2 border-gray-300 bg-white h-8  ml-2 rounded-lg text-sm focus:outline-none"
           value={task.text}
           onChange={e => {
             dispatch({
@@ -53,7 +53,7 @@ function Task({ task }) {
   return (
     <label>
       <input
-        class="mr-2 form-checkbox h-5 w-5  rounded"
+        className="mr-2 form-checkbox h-5 w-5  rounded"
         type="checkbox"
         checked={task.done}
         onChange={e => {

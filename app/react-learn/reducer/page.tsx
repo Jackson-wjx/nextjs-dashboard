@@ -2,8 +2,8 @@
 
 // import { Metadata } from 'next';
 import { lusitana } from '@/app/ui/fonts';
-import AddTask from './add-task.tsx';
-import TaskList from './task-list.tsx';
+import AddTask from './add-task';
+import TaskList from './task-list';
 import { TasksProvider } from './task-context';
 
 // export const metadata: Metadata = {
